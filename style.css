@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.form_Wrapper{
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.form_Wrapper form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding:  2rem;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.form_Wrapper form h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form_Wrapper form input{
+     padding: 0.8rem 1rem;
+     border-radius: 5px;
+     outline: none;
+     font-size: 1rem;
+     border: none;
+     border: 1px solid rgb(138, 135, 135);
+     color: rgb(121, 115, 115);
+}
+
+.form_Wrapper form input:focus{
+    outline: none;
+}
+
+.form_Wrapper form .myBtn{
+    width: 100%;
+    background-color: #183D3D;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+}
+.form_Wrapper form .myBtn:hover{
+    background-color: #184b4b;  
+}
+
+#error {
+    font-size: 0.7rem;
+    font-weight: bold;
+   color: red;
+  }
+  

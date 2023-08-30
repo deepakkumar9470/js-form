@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Form</title>
+</head>
+<body>
+
+      <div class="form_Wrapper">
+
+        <form  id="myForm" method="post" onsubmit="validate()">
+          <h2>User Form</h2>
+            <div>
+              <input id="name" type="text" placeholder="Enter name" required>
+            </div>
+             <div>
+              <input id="address" type="text" placeholder="Enter address"  required >
+            </div>
+             <div>
+              <input id="age" type="number" placeholder="Enter age"  maxlength="3" required>
+            </div>
+
+            <input id="myBtn" class="myBtn" type="submit"/>
+        </form>
+          
+      </div>
+
+    
+
+      <script src="app.js"></script>
+
+    
+</body>
+</html>
